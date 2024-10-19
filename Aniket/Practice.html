@@ -3,31 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Even or Odd Checker</title>
+  <title>Document</title>
 </head>
 <body>
-  <input type="text" id="text" placeholder="Enter Your number">
-  <button id="even">Even</button>
-  <button id="odd">Odd</button>
-
-  <script>
-    function checkEvenOrOdd() {
-      const inputElement = document.getElementById('text');
-      const number = parseInt(inputElement.value);
-
-      if (!isNaN(number)) {
-        if (number % 2 === 0) {
-          alert("Number is even");
-        } else {
-          alert("Number is odd");
-        }
-      } else {
-        alert("Please enter a valid number.");
-      }
-    }
-
-    document.getElementById('even').addEventListener('click', checkEvenOrOdd);
-    document.getElementById('odd').addEventListener('click', checkEvenOrOdd);
-  </script>
+  <input type="text" placeholder="Enter Your Number" id="Number_text">
+  <button id="Click-buttn">Click</button>
 </body>
 </html>
